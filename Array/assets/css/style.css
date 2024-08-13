@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid black;
+  padding: 5px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: max-content;
+  min-width: 300px;
+  background-color: aliceblue;
+}
+
+.phone-item {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 15px;
+  line-height: 1.2;
+}
+
+.ph-img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.ph-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ph-model {
+  text-decoration: underline;
+}
+
+.ph-prise {
+  color: red;
+}
+
+.ph-ram {
+  font-size: large;
+}
